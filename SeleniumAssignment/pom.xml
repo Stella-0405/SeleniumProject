@@ -6,7 +6,7 @@
 	<groupId>SeleniumAssignment</groupId>
 	<artifactId>SeleniumAssignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 
 	<name>SeleniumAssignment</name>
 	<url>https://ratesapi.io.documentation</url>
@@ -80,7 +80,12 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.5</version>
 		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.2.1</version>
+		</dependency>
 
 	</dependencies>
-	
+
 </project>
