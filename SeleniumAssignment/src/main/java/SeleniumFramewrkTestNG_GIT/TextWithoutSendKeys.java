@@ -27,7 +27,7 @@ public class TextWithoutSendKeys {
 		
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		WebElement name_email_phn = driver.findElement(By.name("username"));
-		js.executeScript("arguments[0].value='random@gmail.com'",name_email_phn);
+		js.executeScript("arguments[0].value='aayu@gmail.com'",name_email_phn);
 		Thread.sleep(5000);
 		
 	}
